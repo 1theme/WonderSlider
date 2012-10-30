@@ -17,6 +17,7 @@ Quick Start
 2. Grab a fresh copy of WonderSlider
 ```
 <script type="text/javascript" src="wonderslider/wonder-slider.js"></script>
+
 <link rel="stylesheet" href="wonderslider/wonder-slider.css">
 ```
 3. Give variables to wonder slider to init.
