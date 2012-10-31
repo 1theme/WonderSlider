@@ -1,12 +1,12 @@
 WonderSlider
 ============
 
-A full screen slider with automatic image positioning.
-Tested: FF 16(Windows), Chrome 22(Windows), Opera 12(Windows), Internet Explorer 9(Windows)
-Features: Images, Youtube and Vimeo videos, controls and progress bar. Can change images on the fly.
-Future: Add thumbnails, slide and random effects
-Uses: Weer for absolute image positioning see below the WonderSlider
-License: GNU/GPL
+A full screen slider with automatic image positioning. <br />
+Tested: FF 16(Windows), Chrome 22(Windows), Opera 12(Windows), Internet Explorer 9(Windows) <br />
+Features: Images, Youtube and Vimeo videos, controls and progress bar. Can change images on the fly. <br />
+TODO: Add thumbnails, slide and random effects <br />
+Uses: Weer for absolute image positioning. http://github.com/RiseLedger/Weer/ <br />
+License: GNU/GPL <br />
 
 
 Quick Start
