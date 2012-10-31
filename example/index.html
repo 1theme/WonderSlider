@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>WonderSlider Example</title>
+	
+	<!-- Include jQuery, we use 1.7.2 --->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<!-- Include WonderSlider -->
+	<script type="text/javascript" src="../wonder-slider.min.js"></script>
+	<!-- Include the WonderSlider style -->
+	<link rel="stylesheet" href="../wonder-slider.css" />
+	
+	<!-- Setup wonder slider -->
+	<script type="text/javascript">
+	jQuery(function() {
+		// We define an array of items
+		var images = [
+			'images/1.jpg',
+			'images/2.jpg',
+			'images/3.jpg',
+			'images/4.jpg',
+		];
+		
+		// And init the slider
+		jQuery.wonderSlider(images);
+
+		// And show a small notice, remove this in production !
+		alert("Images kindly provided by http://fotografchisinau.md");
+	});
+	</script>
+</head>
+<body>
+	<!-- Don't do anything fancy here -->
+</body>
+</html>

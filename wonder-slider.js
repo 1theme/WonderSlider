@@ -6,7 +6,6 @@
   Future: Add thumbnails, slide and random effects
   Uses: Weer for absolute image positioning see below the WonderSlider
   License: GNU/GPL
-
 */
 ;(function() {
 

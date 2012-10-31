@@ -1,27 +1,29 @@
 WonderSlider
 ============
-<pre>
-A full screen slider with automatic image positioning.
-Tested: FF 16(Windows), Chrome 22(Windows), Opera 12(Windows), Internet Explorer 9(Windows)
-Features: Images, Youtube and Vimeo videos, controls and progress bar. Can change images on the fly.
-Future: Add thumbnails, slide and random effects
-Uses: Weer for absolute image positioning see below the WonderSlider
-License: GNU/GPL
-</pre>
+
+A full screen slider with automatic image positioning. <br />
+Tested: FF 16(Windows), Chrome 22(Windows), Opera 12(Windows), Internet Explorer 9(Windows) <br />
+Features: Images, Youtube and Vimeo videos, controls and progress bar. Can change images on the fly. <br />
+TODO: Add thumbnails, slide and random effects <br />
+Uses: Weer for absolute image positioning. http://github.com/RiseLedger/Weer/ <br />
+License: GNU/GPL <br />
+
 
 Quick Start
 ============
-1. Include latest jQuery
+1. Include latest jQuery <br />
 ```
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 ```
-2. Grab a fresh copy of WonderSlider
+2. Grab a fresh copy of WonderSlider <br />
 ```
 <script type="text/javascript" src="wonderslider/wonder-slider.js"></script>
-
+```
+3. Include the CSS <br />
+```
 <link rel="stylesheet" href="wonderslider/wonder-slider.css">
 ```
-3. Give variables to wonder slider to init.
+4. Give variables to wonder slider to init. <br />
 ```
 	<script type="text/javascript">
 		jQuery(function() {
@@ -131,6 +133,16 @@ Accepted Variables
 
 </table>
 
+Using Variables
+============
+```
+<script type="text/javascript">
+	jQuery(function() {	
+		jQuery.wonderSlider(images, { speed:500, delay:7000, color:'#999' });
+	});
+</script>
+```
+You simply pass the second parameter which are the settings of the slider.
 
 Callbacks
 ============
